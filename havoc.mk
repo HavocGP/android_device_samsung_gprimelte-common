@@ -4,6 +4,7 @@ PRODUCT_RELEASE_NAME := Samsung Galaxy Grand Prime
 # Boot animation
 TARGET_SCREEN_WIDTH := 540
 TARGET_SCREEN_HEIGHT := 960
+TARGET_BOOTANIMATION_HALF_RES := true
 
 # Inherit some common Havoc stuff.
 $(call inherit-product, vendor/havoc/config/common_full_phone.mk)
